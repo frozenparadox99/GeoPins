@@ -88,3 +88,4 @@ typings/
 .dynamodb/
 
 client/node_modules
+client/.env
