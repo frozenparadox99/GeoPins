@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 
 export const BASE_URL =
   process.env.NODE_ENV === "production"
-    ? "<Insert-Prod-Url>"
+    ? "https://geo-pins-react.herokuapp.com/graphql"
     : "http://localhost:4000/graphql";
 
 export const useClient = () => {

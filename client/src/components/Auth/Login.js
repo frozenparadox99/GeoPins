@@ -43,7 +43,7 @@ const Login = ({ classes }) => {
         Welcome
       </Typography>
       <GoogleLogin
-        clientId={`${process.env.REACT_APP_NOT_SECRET_CODE}`}
+        clientId="415949175146-87pmt5ouav07bi0h6ninjc2qpjt470qf.apps.googleusercontent.com"
         onSuccess={onSuccess}
         onFailure={onFailure}
         isSignedIn={true}
